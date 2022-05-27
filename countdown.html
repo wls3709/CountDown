@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+
+	i = 10;
+	play = setInterval(function() {
+		if(i==0){
+			clearInterval(play);
+			document.write('발사!');
+			return;
+		}
+		document.write(i+'<br/>');
+		i--;
+	}, 1000);
+	
+</script>
+<body>
+
+</body>
+</html>
